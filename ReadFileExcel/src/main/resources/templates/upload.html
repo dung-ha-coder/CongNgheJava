@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<div align="center" style="font-size: 30px;">
+
+		<h1>UPLOAD FILE EXCEL</h1>
+		<form th:action="@{/upload}" enctype="multipart/form-data" method="post">
+			<input type="file" name="fileExcel" accept=".xls, .xlsx" >
+			<br>
+			<input type="submit" value="upload file" />
+		</form>
+
+	</div>
+</body>
+</html>
